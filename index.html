@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Content Management Tool</title>
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <h1>Content Management Tool</h1>
+  <div class="main">
+    <div class="card">
+      <div class="input-section">
+        <label class="label-section" for="title">Enter Content Title:</label>
+        <input class="div-section" type="text" id="title" placeholder="Enter Your Content">
+      </div>
+      
+      <div class="input-section">
+        <label class="label-section" for="content">Enter Your Content:</label>
+        <textarea class="div-section" cols="128" id="content" placeholder="Write Here Content">
+        </textarea>
+      </div>
+
+      <div class="input-section">
+        <label class="label-section" for="image">Image:</label>
+        <input class="div-section" type="file" id="image" accept="image/*">
+      </div>
+
+      <div class="input-section">
+        <label class="label-section" for="video">Video:</label>
+        <input type="file" id="video" accept="video/*">
+      </div>
+    </div>
+  
+    <div class="button-section">
+      <button onclick="submitForm()">Upload Content</button>
+    </div>
+
+    <div class="data-container">
+      <div class="data-section" id="dataSection">
+      </div>
+    </div>
+
+  </div>
+  
+</body>
+
+</html>

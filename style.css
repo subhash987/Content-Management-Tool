@@ -1,0 +1,128 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: linear-gradient(to right, #CCFFCC , #66FFFF);
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    margin: 0px;
+    font-weight: 600;
+    font-size: 35px;
+    background: #003366;
+    color: #fff;
+    padding: 10px;
+    line-height: 1.7em;
+    box-shadow: 0 2px 10px 0 #000;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+.card {
+    margin: 0px;
+    width: 60%;
+    border: 2px solid #405d27;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px #000;
+    padding: 20px;
+    background-color: #82b74b;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.input-section {
+    margin: 0;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+
+.label-section {
+    text-decoration: wavy;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+
+.div-section {
+    height: 30px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.preview {
+    width: 15cm;
+}
+
+.video-preview {
+    width: 15cm;
+    height: auto;
+}
+
+.input-section label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-section input[type="text"],
+.input-section input[type="file"] {
+    width: 100%;
+    padding: 5px;
+}
+
+.button-section {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button-section button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #405d27;
+    background: transparent;
+    border: 2px solid #405d27;
+    border-radius: 6px;
+    
+}
+
+.button-section button:hover {
+    background-color: #82b74b;
+    box-shadow: 0 2px 10px 0 #000;
+}
+
+.data-container {
+    width: 60%;
+
+}
+
+
+.card-header {
+    background-color:  mintcream;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.card-title {
+    margin: 0;
+}
+
+.card-body {
+    margin-top: 10px;
+}
